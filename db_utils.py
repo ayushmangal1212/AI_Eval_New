@@ -542,5 +542,258 @@ def backup_json_files():
     
     return backup_dir, backed_up
 
+
+# ============================================
+# ADMIN CONTROL FUNCTIONS
+# ============================================
+
+def admin_get_user_profile(username):
+    """Get complete user profile with all details"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        cursor.execute("""
+            SELECT username, name, email, experience, created_at, 
+                   eval_chances, eval_taken_counts, skills
+            FROM users
+            WHERE username = ?
+        """, (username,))
+        
+        row = cursor.fetchone()
+        if row:
+            return {
+                'username': row[0],
+                'name': row[1],
+                'email': row[2],
+                'experience': row[3],
+                'created_at': row[4],
+                'eval_chances': row[5],
+                'eval_taken_counts': row[6],
+                'skills': row[7].split(',') if row[7] else []
+            }
+        return None
+    finally:
+        conn.close()
+
+def admin_reset_user_attempts(username):
+    """Reset user's evaluation attempts"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        cursor.execute("""
+            UPDATE users
+            SET eval_taken_counts = '0'
+            WHERE username = ?
+        """, (username,))
+        
+        conn.commit()
+        return {'success': True, 'message': f'Reset attempts for {username}'}
+    except Exception as e:
+        conn.rollback()
+        return {'success': False, 'error': str(e)}
+    finally:
+        conn.close()
+
+def admin_update_user_skills(username, skills):
+    """Update user's skills"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        skills_str = ','.join(skills) if isinstance(skills, list) else skills
+        cursor.execute("""
+            UPDATE users
+            SET skills = ?
+            WHERE username = ?
+        """, (skills_str, username))
+        
+        conn.commit()
+        return {'success': True, 'message': f'Updated skills for {username}'}
+    except Exception as e:
+        conn.rollback()
+        return {'success': False, 'error': str(e)}
+    finally:
+        conn.close()
+
+def admin_get_user_evaluations(username):
+    """Get all evaluations for a specific user"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        cursor.execute("""
+            SELECT id, date, role, score, max_score, percentage, 
+                   time_taken, qa_history
+            FROM evaluations
+            WHERE username = ?
+            ORDER BY date DESC
+        """, (username,))
+        
+        rows = cursor.fetchall()
+        evaluations = []
+        
+        for row in rows:
+            evaluations.append({
+                'id': row[0],
+                'date': row[1],
+                'role': row[2],
+                'score': row[3],
+                'max_score': row[4],
+                'percentage': row[5],
+                'time_taken': row[6],
+                'qa_history': json.loads(row[7]) if row[7] else []
+            })
+        
+        return evaluations
+    finally:
+        conn.close()
+
+def admin_update_evaluation_score(eval_id, new_score, new_max_score=None):
+    """Update evaluation score (e.g., after reviewing feedback)"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        # Get current evaluation
+        cursor.execute("""
+            SELECT score, max_score FROM evaluations WHERE id = ?
+        """, (eval_id,))
+        
+        row = cursor.fetchone()
+        if not row:
+            return {'success': False, 'error': 'Evaluation not found'}
+        
+        current_max = row[1]
+        max_score = new_max_score if new_max_score else current_max
+        percentage = (new_score / max_score) * 100
+        
+        cursor.execute("""
+            UPDATE evaluations
+            SET score = ?, max_score = ?, percentage = ?
+            WHERE id = ?
+        """, (new_score, max_score, percentage, eval_id))
+        
+        conn.commit()
+        return {
+            'success': True, 
+            'message': f'Updated evaluation {eval_id}',
+            'new_score': new_score,
+            'new_percentage': percentage
+        }
+    except Exception as e:
+        conn.rollback()
+        return {'success': False, 'error': str(e)}
+    finally:
+        conn.close()
+
+def admin_update_question_score(eval_id, question_index, new_score):
+    """Update individual question score within an evaluation"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        # Get evaluation
+        cursor.execute("""
+            SELECT qa_history, score, max_score FROM evaluations WHERE id = ?
+        """, (eval_id,))
+        
+        row = cursor.fetchone()
+        if not row:
+            return {'success': False, 'error': 'Evaluation not found'}
+        
+        qa_history = json.loads(row[0]) if row[0] else []
+        current_total = row[1]
+        max_score = row[2]
+        
+        if question_index < 0 or question_index >= len(qa_history):
+            return {'success': False, 'error': 'Invalid question index'}
+        
+        # Update question score
+        old_score = qa_history[question_index].get('score', 0)
+        qa_history[question_index]['score'] = new_score
+        qa_history[question_index]['admin_adjusted'] = True
+        
+        # Recalculate total score
+        new_total = current_total - old_score + new_score
+        new_percentage = (new_total / max_score) * 100
+        
+        # Update database
+        cursor.execute("""
+            UPDATE evaluations
+            SET qa_history = ?, score = ?, percentage = ?
+            WHERE id = ?
+        """, (json.dumps(qa_history), new_total, new_percentage, eval_id))
+        
+        conn.commit()
+        return {
+            'success': True,
+            'message': f'Updated question {question_index + 1} score',
+            'old_score': old_score,
+            'new_score': new_score,
+            'new_total': new_total,
+            'new_percentage': new_percentage
+        }
+    except Exception as e:
+        conn.rollback()
+        return {'success': False, 'error': str(e)}
+    finally:
+        conn.close()
+
+def admin_delete_evaluation(eval_id):
+    """Delete an evaluation"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        cursor.execute("DELETE FROM evaluations WHERE id = ?", (eval_id,))
+        conn.commit()
+        
+        if cursor.rowcount > 0:
+            return {'success': True, 'message': f'Deleted evaluation {eval_id}'}
+        else:
+            return {'success': False, 'error': 'Evaluation not found'}
+    except Exception as e:
+        conn.rollback()
+        return {'success': False, 'error': str(e)}
+    finally:
+        conn.close()
+
+def admin_get_all_users_summary():
+    """Get summary of all users"""
+    conn = get_connection()
+    cursor = conn.cursor()
+    
+    try:
+        cursor.execute("""
+            SELECT u.username, u.name, u.email, u.created_at, u.skills,
+                   COUNT(e.id) as eval_count,
+                   AVG(e.percentage) as avg_percentage
+            FROM users u
+            LEFT JOIN evaluations e ON u.username = e.username
+            GROUP BY u.username
+            ORDER BY u.created_at DESC
+        """)
+        
+        rows = cursor.fetchall()
+        users = []
+        
+        for row in rows:
+            users.append({
+                'username': row[0],
+                'name': row[1],
+                'email': row[2],
+                'created_at': row[3],
+                'skills': row[4].split(',') if row[4] else [],
+                'eval_count': row[5] or 0,
+                'avg_percentage': round(row[6], 1) if row[6] else 0
+            })
+        
+        return users
+    finally:
+        conn.close()
+
+
 # Initialize database on module import
 init_database()

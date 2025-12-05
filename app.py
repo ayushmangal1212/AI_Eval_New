@@ -724,5 +724,94 @@ def update_feedback_status_api(feedback_id):
 
 
 
+# ============================================
+# ADMIN CONTROL ENDPOINTS
+# ============================================
+
+@app.route('/api/admin/user/<username>/profile')
+@admin_required
+def get_user_profile_api(username):
+    """Get user profile"""
+    profile = db_utils.admin_get_user_profile(username)
+    if profile:
+        return jsonify({'success': True, 'profile': profile})
+    return jsonify({'success': False, 'error': 'User not found'})
+
+@app.route('/api/admin/user/<username>/reset-attempts', methods=['POST'])
+@admin_required
+def reset_user_attempts_api(username):
+    """Reset user's evaluation attempts"""
+    result = db_utils.admin_reset_user_attempts(username)
+    return jsonify(result)
+
+@app.route('/api/admin/user/<username>/update-skills', methods=['POST'])
+@admin_required
+def update_user_skills_api(username):
+    """Update user skills"""
+    data = request.get_json()
+    skills = data.get('skills', [])
+    result = db_utils.admin_update_user_skills(username, skills)
+    return jsonify(result)
+
+@app.route('/api/admin/user/<username>/evaluations')
+@admin_required
+def get_user_evaluations_api(username):
+    """Get all evaluations for a user"""
+    evaluations = db_utils.admin_get_user_evaluations(username)
+    return jsonify({'success': True, 'evaluations': evaluations})
+
+@app.route('/api/admin/evaluation/<int:eval_id>/update-score', methods=['POST'])
+@admin_required
+def update_evaluation_score_api(eval_id):
+    """Update evaluation score"""
+    data = request.get_json()
+    new_score = data.get('new_score')
+    new_max_score = data.get('new_max_score')
+    result = db_utils.admin_update_evaluation_score(eval_id, new_score, new_max_score)
+    return jsonify(result)
+
+@app.route('/api/admin/evaluation/<int:eval_id>/update-question', methods=['POST'])
+@admin_required
+def update_question_score_api(eval_id):
+    """Update individual question score"""
+    data = request.get_json()
+    question_index = data.get('question_index')
+    new_score = data.get('new_score')
+    result = db_utils.admin_update_question_score(eval_id, question_index, new_score)
+    return jsonify(result)
+
+@app.route('/api/admin/evaluation/<int:eval_id>/delete', methods=['DELETE'])
+@admin_required
+def delete_evaluation_api(eval_id):
+    """Delete evaluation"""
+    result = db_utils.admin_delete_evaluation(eval_id)
+    return jsonify(result)
+
+@app.route('/api/admin/users/summary')
+@admin_required
+def get_users_summary_api():
+    """Get summary of all users"""
+    users = db_utils.admin_get_all_users_summary()
+    return jsonify({'success': True, 'users': users})
+
+@app.route('/api/admin/feedback/<int:feedback_id>/adjust-score', methods=['POST'])
+@admin_required
+def adjust_score_from_feedback_api(feedback_id):
+    """Adjust score based on feedback review"""
+    data = request.get_json()
+    eval_id = data.get('eval_id')
+    question_index = data.get('question_index')
+    new_score = data.get('new_score')
+    
+    # Update question score
+    result = db_utils.admin_update_question_score(eval_id, question_index, new_score)
+    
+    if result['success']:
+        # Mark feedback as reviewed
+        feedback_db.update_feedback_status(feedback_id, 'resolved')
+    
+    return jsonify(result)
+
+
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
