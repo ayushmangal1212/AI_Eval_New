@@ -1,0 +1,802 @@
+{
+  "test12": [
+    {
+      "date": "2025-12-05 12:09:02",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 200,
+      "percentage": 0.0,
+      "time_taken": 1694.179442167282,
+      "qa_history": [
+        {
+          "q": "Java \u092e\u0947\u0902 'immutable' \u0914\u0930 'mutable' objects \u0915\u0947 \u092c\u0940\u091a \u0915\u094d\u092f\u093e \u0905\u0902\u0924\u0930 \u0939\u0948, \u0914\u0930 \u0915\u093f\u0928 \u092a\u0930\u093f\u0938\u094d\u0925\u093f\u0924\u093f\u092f\u094b\u0902 \u092e\u0947\u0902 \u0906\u092a \u090f\u0915 \u0915\u094b \u0926\u0942\u0938\u0930\u0947 \u092a\u0930 \u092a\u094d\u0930\u093e\u0925\u092e\u093f\u0915\u0924\u093e \u0926\u0947\u0902\u0917\u0947?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "\u0909\u092e\u094d\u092e\u0940\u0926\u0935\u093e\u0930 \u0928\u0947 \u092a\u094d\u0930\u0936\u094d\u0928 \u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0928\u0939\u0940\u0902 \u0926\u093f\u092f\u093e \u0939\u0948\u0964 ['Immutable \u0914\u0930 Mutable objects \u0915\u0947 \u092c\u0940\u091a \u0905\u0902\u0924\u0930 \u0915\u094b \u0938\u092e\u091d\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f Java \u0915\u0940 \u092e\u0942\u0932 \u0905\u0935\u0927\u093e\u0930\u0923\u093e\u0913\u0902 \u0915\u093e \u0905\u0927\u094d\u092f\u092f\u0928 \u0915\u0930\u0947\u0902\u0964', 'Immutable objects \u0915\u0947 \u0909\u0926\u093e\u0939\u0930\u0923 (\u091c\u0948\u0938\u0947 String) \u0914\u0930 Mutable objects \u0915\u0947 \u0909\u0926\u093e\u0939\u0930\u0923 (\u091c\u0948\u0938\u0947 StringBuilder) \u0926\u0947\u0916\u0947\u0902 \u0914\u0930 \u0909\u0928\u0915\u0947 \u0909\u092a\u092f\u094b\u0917 \u0915\u0947 \u092e\u093e\u092e\u0932\u094b\u0902 \u0915\u094b \u0938\u092e\u091d\u0947\u0902\u0964']"
+        },
+        {
+          "q": "Java \u092e\u0947\u0902 'dependency injection' \u0938\u093f\u0926\u094d\u0927\u093e\u0902\u0924 \u0915\u094d\u092f\u093e \u0939\u0948, \u0914\u0930 \u092f\u0939 \u0915\u0948\u0938\u0947 \u0915\u094b\u0921 \u0915\u092a\u0932\u093f\u0902\u0917 \u0915\u094b \u0915\u092e \u0915\u0930\u0928\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u0915\u0930\u0924\u093e \u0939\u0948?",
+          "a": "test",
+          "score": 0,
+          "feedback": "The answer 'test' is completely off-topic and does not address the question about dependency injection in Java. ['Provide a clear definition of dependency injection and its purpose in Java.', 'Explain how dependency injection reduces code coupling with examples or analogies.']"
+        },
+        {
+          "q": "Java \u092e\u0947\u0902 'dependency injection' \u0938\u093f\u0926\u094d\u0927\u093e\u0902\u0924 \u0915\u094d\u092f\u093e \u0939\u0948, \u0914\u0930 \u092f\u0939 \u0915\u0948\u0938\u0947 \u0915\u094b\u0921 \u0915\u092a\u0932\u093f\u0902\u0917 \u0915\u094b \u0915\u092e \u0915\u0930\u0928\u0947 \u092e\u0947\u0902 \u092e\u0926\u0926 \u0915\u0930\u0924\u093e \u0939\u0948?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "\u0909\u092e\u094d\u092e\u0940\u0926\u0935\u093e\u0930 \u0928\u0947 \u092a\u094d\u0930\u0936\u094d\u0928 \u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0928\u0939\u0940\u0902 \u0926\u093f\u092f\u093e \u0939\u0948\u0964 ['Dependency Injection (DI) \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092c\u0941\u0928\u093f\u092f\u093e\u0926\u0940 \u0905\u0935\u0927\u093e\u0930\u0923\u093e\u0913\u0902 \u0915\u094b \u0938\u092e\u091d\u0928\u0947 \u0915\u0940 \u0915\u094b\u0936\u093f\u0936 \u0915\u0930\u0947\u0902, \u091c\u0948\u0938\u0947 \u0915\u093f \u092f\u0939 \u0915\u0948\u0938\u0947 \u0915\u093e\u092e \u0915\u0930\u0924\u093e \u0939\u0948 \u0914\u0930 \u0907\u0938\u0915\u0947 \u092b\u093e\u092f\u0926\u0947\u0964', 'DI \u0915\u0947 \u0909\u0926\u093e\u0939\u0930\u0923\u094b\u0902 \u0915\u0947 \u0938\u093e\u0925 \u0905\u092d\u094d\u092f\u093e\u0938 \u0915\u0930\u0947\u0902, \u091c\u0948\u0938\u0947 Spring Framework \u092e\u0947\u0902 @Autowired \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0930\u0928\u093e\u0964']"
+        },
+        {
+          "q": "\u090f\u0915 Java \u092e\u0947\u0925\u0921 \u0932\u093f\u0916\u0947\u0902 \u091c\u094b \u0915\u093f\u0938\u0940 \u0926\u093f\u090f \u0917\u090f \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0947\u0902 \u0938\u092d\u0940 \u0905\u0928\u0928\u094d\u092f (unique) \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u0940 \u0917\u093f\u0928\u0924\u0940 \u0915\u0930\u0947 \u0914\u0930 \u0909\u0928\u094d\u0939\u0947\u0902 \u090f\u0915 HashMap \u092e\u0947\u0902 \u0935\u093e\u092a\u0938 \u0932\u094c\u091f\u093e\u090f\u0964 \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0947\u0902 \u0936\u092c\u094d\u0926 \u0938\u094d\u092a\u0947\u0938 \u092f\u093e \u0915\u093f\u0938\u0940 \u0935\u093f\u0930\u093e\u092e \u091a\u093f\u0939\u094d\u0928 (punctuation) \u0938\u0947 \u0905\u0932\u0917 \u0915\u093f\u090f \u0917\u090f \u0939\u094b \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0935\u093f\u0930\u093e\u092e \u091a\u093f\u0939\u094d\u0928\u094b\u0902 \u0915\u094b \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u093e \u0939\u093f\u0938\u094d\u0938\u093e \u0928\u0939\u0940\u0902 \u092e\u093e\u0928\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964 \u0909\u0926\u093e\u0939\u0930\u0923 \u0915\u0947 \u0932\u093f\u090f, \u0907\u0928\u092a\u0941\u091f \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \"Hello, world! Hello everyone.\" \u0915\u0947 \u0932\u093f\u090f \u0906\u0909\u091f\u092a\u0941\u091f HashMap {Hello=2, world=1, everyone=1} \u0939\u094b\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide any code or attempt to solve the problem. [\"Try to write a basic version of the method first, even if it's not perfect. For example, start by splitting the string into words and counting them without worrying about punctuation.\", 'Review how to handle punctuation in strings. You can use regular expressions or replace all punctuation with spaces before splitting the string.']"
+        },
+        {
+          "q": "\u090f\u0915 Java \u092e\u0947\u0925\u0921 \u0932\u093f\u0916\u0947\u0902 \u091c\u094b \u0915\u093f\u0938\u0940 \u0926\u093f\u090f \u0917\u090f \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0947\u0902 \u0938\u092d\u0940 \u0905\u0928\u0928\u094d\u092f (unique) \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u0940 \u0917\u093f\u0928\u0924\u0940 \u0915\u0930\u0947 \u0914\u0930 \u0909\u0928\u094d\u0939\u0947\u0902 \u090f\u0915 HashMap \u092e\u0947\u0902 \u0935\u093e\u092a\u0938 \u0932\u094c\u091f\u093e\u090f\u0964 \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0947\u0902 \u0936\u092c\u094d\u0926 \u0938\u094d\u092a\u0947\u0938 \u092f\u093e \u0915\u093f\u0938\u0940 \u0935\u093f\u0930\u093e\u092e \u091a\u093f\u0939\u094d\u0928 (punctuation) \u0938\u0947 \u0905\u0932\u0917 \u0915\u093f\u090f \u0917\u090f \u0939\u094b \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0935\u093f\u0930\u093e\u092e \u091a\u093f\u0939\u094d\u0928\u094b\u0902 \u0915\u094b \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u093e \u0939\u093f\u0938\u094d\u0938\u093e \u0928\u0939\u0940\u0902 \u092e\u093e\u0928\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964 \u0909\u0926\u093e\u0939\u0930\u0923 \u0915\u0947 \u0932\u093f\u090f, \u0907\u0928\u092a\u0941\u091f \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \"Hello, world! Hello everyone.\" \u0915\u0947 \u0932\u093f\u090f \u0906\u0909\u091f\u092a\u0941\u091f HashMap {Hello=2, world=1, everyone=1} \u0939\u094b\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "\u0909\u092e\u094d\u092e\u0940\u0926\u0935\u093e\u0930 \u0928\u0947 \u0915\u094b\u0908 \u0915\u094b\u0921 \u092a\u094d\u0930\u0926\u093e\u0928 \u0928\u0939\u0940\u0902 \u0915\u093f\u092f\u093e \u0939\u0948 \u092f\u093e \u092a\u094d\u0930\u0936\u094d\u0928 \u0938\u0947 \u0938\u0902\u092c\u0902\u0927\u093f\u0924 \u0909\u0924\u094d\u0924\u0930 \u0928\u0939\u0940\u0902 \u0926\u093f\u092f\u093e \u0939\u0948\u0964 ['\u092a\u094d\u0930\u0936\u094d\u0928 \u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0926\u0947\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 Java \u092e\u0947\u0925\u0921 \u0932\u093f\u0916\u0947\u0902 \u091c\u094b \u0926\u093f\u090f \u0917\u090f \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0947\u0902 \u0905\u0928\u0928\u094d\u092f \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u0940 \u0917\u093f\u0928\u0924\u0940 \u0915\u0930\u0947 \u0914\u0930 \u0909\u0928\u094d\u0939\u0947\u0902 HashMap \u092e\u0947\u0902 \u0935\u093e\u092a\u0938 \u0932\u094c\u091f\u093e\u090f\u0964', '\u0935\u093f\u0930\u093e\u092e \u091a\u093f\u0939\u094d\u0928\u094b\u0902 \u0915\u094b \u0939\u091f\u093e\u0928\u0947 \u0914\u0930 \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u094b \u0905\u0932\u0917 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093f\u090f \u0909\u091a\u093f\u0924 \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0948\u0928\u093f\u092a\u0941\u0932\u0947\u0936\u0928 \u0924\u0915\u0928\u0940\u0915\u094b\u0902 \u0915\u093e \u0909\u092a\u092f\u094b\u0917 \u0915\u0930\u0947\u0902\u0964']"
+        },
+        {
+          "q": "\u090f\u0915 Java \u092e\u0947\u0925\u0921 \u0932\u093f\u0916\u0947\u0902 \u091c\u094b \u0915\u093f\u0938\u0940 \u0926\u093f\u090f \u0917\u090f \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0947\u0902 \u0938\u092d\u0940 \u0905\u0928\u0928\u094d\u092f (unique) \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u0940 \u0917\u093f\u0928\u0924\u0940 \u0915\u0930\u0947 \u0914\u0930 \u0909\u0928\u094d\u0939\u0947\u0902 \u090f\u0915 HashMap \u092e\u0947\u0902 \u0935\u093e\u092a\u0938 \u0932\u094c\u091f\u093e\u090f\u0964 \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0947\u0902 \u0936\u092c\u094d\u0926 \u0938\u094d\u092a\u0947\u0938 \u092f\u093e \u0915\u093f\u0938\u0940 \u0935\u093f\u0930\u093e\u092e \u091a\u093f\u0939\u094d\u0928 (punctuation) \u0938\u0947 \u0905\u0932\u0917 \u0915\u093f\u090f \u0917\u090f \u0939\u094b \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0935\u093f\u0930\u093e\u092e \u091a\u093f\u0939\u094d\u0928\u094b\u0902 \u0915\u094b \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u093e \u0939\u093f\u0938\u094d\u0938\u093e \u0928\u0939\u0940\u0902 \u092e\u093e\u0928\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964 \u0909\u0926\u093e\u0939\u0930\u0923 \u0915\u0947 \u0932\u093f\u090f, \u0907\u0928\u092a\u0941\u091f \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \"Hello, world! Hello everyone.\" \u0915\u0947 \u0932\u093f\u090f \u0906\u0909\u091f\u092a\u0941\u091f HashMap {Hello=2, world=1, everyone=1} \u0939\u094b\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide any code or attempt to solve the problem. ['Provide a complete Java method that counts unique words in a string and returns them in a HashMap.', 'Ensure the method handles punctuation by removing or ignoring it before processing the words.']"
+        },
+        {
+          "q": "\u090f\u0915 Java \u092e\u0947\u0925\u0921 \u0932\u093f\u0916\u0947\u0902 \u091c\u094b \u0915\u093f\u0938\u0940 \u0926\u093f\u090f \u0917\u090f \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0947\u0902 \u0938\u092d\u0940 \u0905\u0928\u0928\u094d\u092f (unique) \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u0940 \u0917\u093f\u0928\u0924\u0940 \u0915\u0930\u0947 \u0914\u0930 \u0909\u0928\u094d\u0939\u0947\u0902 \u090f\u0915 HashMap \u092e\u0947\u0902 \u0935\u093e\u092a\u0938 \u0932\u094c\u091f\u093e\u090f\u0964 \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \u092e\u0947\u0902 \u0936\u092c\u094d\u0926 \u0938\u094d\u092a\u0947\u0938 \u092f\u093e \u0915\u093f\u0938\u0940 \u0935\u093f\u0930\u093e\u092e \u091a\u093f\u0939\u094d\u0928 (punctuation) \u0938\u0947 \u0905\u0932\u0917 \u0915\u093f\u090f \u0917\u090f \u0939\u094b \u0938\u0915\u0924\u0947 \u0939\u0948\u0902\u0964 \u0935\u093f\u0930\u093e\u092e \u091a\u093f\u0939\u094d\u0928\u094b\u0902 \u0915\u094b \u0936\u092c\u094d\u0926\u094b\u0902 \u0915\u093e \u0939\u093f\u0938\u094d\u0938\u093e \u0928\u0939\u0940\u0902 \u092e\u093e\u0928\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964 \u0909\u0926\u093e\u0939\u0930\u0923 \u0915\u0947 \u0932\u093f\u090f, \u0907\u0928\u092a\u0941\u091f \u0938\u094d\u091f\u094d\u0930\u093f\u0902\u0917 \"Hello, world! Hello everyone.\" \u0915\u0947 \u0932\u093f\u090f \u0906\u0909\u091f\u092a\u0941\u091f HashMap {Hello=2, world=1, everyone=1} \u0939\u094b\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide any code or solution to the problem. Therefore, no points can be awarded for correctness, code quality, efficiency, or edge case handling. [\"The candidate should attempt to write a basic solution, even if it's not perfect. This shows understanding of the problem and effort to solve it.\", 'The candidate should review basic Java string manipulation and HashMap usage to approach this problem.']"
+        },
+        {
+          "q": "Java \u092e\u0947\u0902 'singleton' \u0921\u093f\u091c\u093c\u093e\u0907\u0928 \u092a\u0948\u091f\u0930\u094d\u0928 \u0915\u094b \u0915\u0948\u0938\u0947 \u0932\u093e\u0917\u0942 \u0915\u0930\u0947\u0902\u0917\u0947, \u0914\u0930 \u0915\u093f\u0928 \u092a\u0930\u093f\u0938\u094d\u0925\u093f\u0924\u093f\u092f\u094b\u0902 \u092e\u0947\u0902 \u092f\u0939 \u092a\u0948\u091f\u0930\u094d\u0928 \u0909\u092a\u092f\u0941\u0915\u094d\u0924 \u0939\u094b\u0924\u093e \u0939\u0948?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "\u0909\u092e\u094d\u092e\u0940\u0926\u0935\u093e\u0930 \u0928\u0947 \u092a\u094d\u0930\u0936\u094d\u0928 \u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0928\u0939\u0940\u0902 \u0926\u093f\u092f\u093e \u0939\u0948\u0964 ['\u0938\u093f\u0902\u0917\u0932\u091f\u0928 \u092a\u0948\u091f\u0930\u094d\u0928 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092c\u0941\u0928\u093f\u092f\u093e\u0926\u0940 \u091c\u094d\u091e\u093e\u0928 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0947\u0902 \u0914\u0930 \u0907\u0938\u0947 \u0932\u093e\u0917\u0942 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0924\u0930\u0940\u0915\u0947 \u0938\u0940\u0916\u0947\u0902\u0964', '\u0938\u093f\u0902\u0917\u0932\u091f\u0928 \u092a\u0948\u091f\u0930\u094d\u0928 \u0915\u0947 \u0909\u092a\u092f\u094b\u0917 \u0915\u0947 \u092e\u093e\u092e\u0932\u094b\u0902 (\u091c\u0948\u0938\u0947 \u0915\u0949\u0928\u094d\u092b\u093f\u0917\u0930\u0947\u0936\u0928 \u092e\u0948\u0928\u0947\u091c\u092e\u0947\u0902\u091f, \u0921\u0947\u091f\u093e\u092c\u0947\u0938 \u0915\u0928\u0947\u0915\u094d\u0936\u0928) \u0915\u094b \u0938\u092e\u091d\u0947\u0902\u0964']"
+        },
+        {
+          "q": "Java \u092e\u0947\u0902 'singleton' \u0921\u093f\u091c\u093c\u093e\u0907\u0928 \u092a\u0948\u091f\u0930\u094d\u0928 \u0915\u094b \u0915\u0948\u0938\u0947 \u0932\u093e\u0917\u0942 \u0915\u0930\u0947\u0902\u0917\u0947, \u0914\u0930 \u0915\u093f\u0928 \u092a\u0930\u093f\u0938\u094d\u0925\u093f\u0924\u093f\u092f\u094b\u0902 \u092e\u0947\u0902 \u092f\u0939 \u092a\u0948\u091f\u0930\u094d\u0928 \u0909\u092a\u092f\u0941\u0915\u094d\u0924 \u0939\u094b\u0924\u093e \u0939\u0948?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "\u0909\u092e\u094d\u092e\u0940\u0926\u0935\u093e\u0930 \u0928\u0947 \u092a\u094d\u0930\u0936\u094d\u0928 \u0915\u093e \u0909\u0924\u094d\u0924\u0930 \u0928\u0939\u0940\u0902 \u0926\u093f\u092f\u093e \u0939\u0948\u0964 ['\u0938\u093f\u0902\u0917\u0932\u091f\u0928 \u092a\u0948\u091f\u0930\u094d\u0928 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092c\u0941\u0928\u093f\u092f\u093e\u0926\u0940 \u091c\u094d\u091e\u093e\u0928 \u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0915\u0930\u0947\u0902 \u0914\u0930 \u0907\u0938\u0947 \u0932\u093e\u0917\u0942 \u0915\u0930\u0928\u0947 \u0915\u0947 \u0924\u0930\u0940\u0915\u094b\u0902 (\u091c\u0948\u0938\u0947 private constructor, static method, \u0914\u0930 instance control) \u0915\u094b \u0938\u092e\u091d\u0947\u0902\u0964', '\u0938\u093f\u0902\u0917\u0932\u091f\u0928 \u092a\u0948\u091f\u0930\u094d\u0928 \u0915\u0947 \u0909\u092a\u092f\u094b\u0917 \u0915\u0947 \u092e\u093e\u092e\u0932\u094b\u0902 (\u091c\u0948\u0938\u0947 \u0921\u0947\u091f\u093e\u092c\u0947\u0938 \u0915\u0928\u0947\u0915\u094d\u0936\u0928, \u0932\u0949\u0917\u093f\u0902\u0917, \u0915\u0949\u0928\u094d\u092b\u093f\u0917\u0930\u0947\u0936\u0928 \u092e\u0948\u0928\u0947\u091c\u092e\u0947\u0902\u091f) \u092a\u0930 \u0936\u094b\u0927 \u0915\u0930\u0947\u0902\u0964']"
+        },
+        {
+          "q": "\u090f\u0915 Java \u092e\u0947\u0925\u0921 \u0932\u093f\u0916\u0947\u0902 \u091c\u094b \u0915\u093f\u0938\u0940 \u0926\u093f\u090f \u0917\u090f \u0907\u0902\u091f\u0940\u091c\u0930 \u0910\u0930\u0947 (array) \u092e\u0947\u0902 \u0938\u092d\u0940 \u0924\u094d\u0930\u093f\u092d\u0941\u091c\u094b\u0902 (triplets) \u0915\u094b \u0916\u094b\u091c\u0947 \u091c\u093f\u0928\u0915\u093e \u092f\u094b\u0917 (sum) \u0936\u0942\u0928\u094d\u092f (0) \u0939\u094b\u0964 \u092e\u0947\u0925\u0921 \u0915\u094b \u0907\u0928 \u0924\u094d\u0930\u093f\u092d\u0941\u091c\u094b\u0902 \u0915\u094b \u0932\u093f\u0938\u094d\u091f \u0915\u0947 \u0930\u0942\u092a \u092e\u0947\u0902 \u0935\u093e\u092a\u0938 \u0932\u094c\u091f\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f, \u091c\u0939\u093e\u0901 \u092a\u094d\u0930\u0924\u094d\u092f\u0947\u0915 \u0924\u094d\u0930\u093f\u092d\u0941\u091c \u090f\u0915 \u0910\u0930\u0947 \u092e\u0947\u0902 \u0939\u094b \u0914\u0930 \u0938\u092d\u0940 \u0924\u094d\u0930\u093f\u092d\u0941\u091c \u092f\u0942\u0928\u093f\u0915 (unique) \u0939\u094b\u0902\u0964  \n\n\u0909\u0926\u093e\u0939\u0930\u0923:  \n\u0907\u0928\u092a\u0941\u091f: nums = [-1, 0, 1, 2, -1, -4]  \n\u0906\u0909\u091f\u092a\u0941\u091f: [[-1, -1, 2], [-1, 0, 1]]  \n\n\u0927\u094d\u092f\u093e\u0928 \u0926\u0947\u0902:  \n- \u0924\u094d\u0930\u093f\u092d\u0941\u091c\u094b\u0902 \u0915\u093e \u0915\u094d\u0930\u092e \u092e\u093e\u092f\u0928\u0947 \u0928\u0939\u0940\u0902 \u0930\u0916\u0924\u093e\u0964  \n- \u090f\u0915 \u0939\u0940 \u0924\u094d\u0930\u093f\u092d\u0941\u091c \u0915\u0947 \u0935\u093f\u092d\u093f\u0928\u094d\u0928 \u0915\u094d\u0930\u092e (permutations) \u0915\u094b \u092f\u0942\u0928\u093f\u0915 \u0928\u0939\u0940\u0902 \u092e\u093e\u0928\u093e \u091c\u093e\u0928\u093e \u091a\u093e\u0939\u093f\u090f\u0964",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide any code or solution to the problem. Therefore, it is impossible to evaluate correctness, code quality, efficiency, or edge case handling. ['The candidate should attempt to write a solution, even if it is not perfect. This shows problem-solving effort and understanding of the problem.', 'For this problem, the candidate could start by sorting the array and then using a two-pointer approach to find triplets that sum to zero, ensuring uniqueness by skipping duplicate elements.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 13:12:05",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 100.88998985290527,
+      "qa_history": [
+        {
+          "q": "What is the difference between an `ArrayList` and a `LinkedList` in Java, and when would you choose one over the other?",
+          "a": "test",
+          "score": 0,
+          "feedback": "The answer 'test' is completely off-topic and does not address the question about `ArrayList` and `LinkedList` in Java. ['Provide a clear explanation of the differences between `ArrayList` and `LinkedList` in terms of internal implementation, performance characteristics, and use cases.', 'Give examples or scenarios where one would be preferred over the other to demonstrate practical understanding.']"
+        },
+        {
+          "q": "What is the purpose of the `final` keyword in Java, and how can it be applied to variables, methods, and classes?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Review the purpose and usage of the `final` keyword in Java, including its application to variables, methods, and classes.', 'Practice explaining Java concepts clearly and concisely to demonstrate understanding during technical interviews.']"
+        },
+        {
+          "q": "Write a Java method called `countVowels` that takes a String as input and returns the number of vowels (a, e, i, o, u) in the string, case-insensitive. For example, if the input is \"Hello World\", the method should return 3.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate indicated they did not know how to solve the problem. ['Study basic string manipulation and character checking in Java, focusing on methods like `toLowerCase()` and loops.', 'Practice writing simple methods that process strings, such as counting specific characters, to build foundational skills.']"
+        },
+        {
+          "q": "Explain an advanced concept or best practice related to java.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Review advanced Java concepts such as concurrency, memory management, or design patterns to prepare for technical interviews.', 'Practice explaining technical topics clearly and concisely to demonstrate understanding during interviews.']"
+        },
+        {
+          "q": "Write a function to solve a common problem using java.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate to evaluate. ['Provide a complete code solution to demonstrate understanding of the problem and Java programming skills.', 'If unsure about the solution, attempt to outline an approach or ask clarifying questions to show problem-solving thinking.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 13:30:17",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 522.2699859142303,
+      "qa_history": [
+        {
+          "q": "What is the difference between an `ArrayList` and a `LinkedList` in Java, and when would you choose one over the other?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Study the differences between `ArrayList` and `LinkedList` in Java, focusing on their underlying data structures and performance characteristics.', 'Practice explaining when to use each data structure, considering factors like frequent insertions/deletions vs. random access.']"
+        },
+        {
+          "q": "What is the purpose of the `final` keyword in Java, and how can it be applied to variables, methods, and classes?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Review the purpose and usage of the `final` keyword in Java, including its application to variables, methods, and classes.', 'Practice explaining Java concepts clearly and concisely to demonstrate understanding during technical interviews.']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Java method called `countVowels` that takes a string as input and returns the number of vowels (a, e, i, o, u) in the string, case-insensitive. For example, if the input is \"Hello World\", the method should return 3 (e, o, o).  \n\nProvide the method signature and implementation.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate, so it is impossible to evaluate correctness, code quality, efficiency, or edge case handling. ['Provide a complete implementation of the `countVowels` method, including the method signature and logic to count vowels case-insensitively.', 'Ensure the method handles edge cases such as an empty string or a string with no vowels.']"
+        },
+        {
+          "q": "What is the difference between using `==` and the `.equals()` method when comparing objects in Java?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Review the fundamental difference between `==` and `.equals()` in Java, focusing on reference comparison vs. content comparison.', 'Practice coding examples to understand how `==` compares memory addresses while `.equals()` compares the actual values of objects.']"
+        },
+        {
+          "q": "Write a function to solve a common problem using java.",
+          "a": "sdfdf",
+          "score": 0,
+          "feedback": "No valid code or solution was provided. The candidate's answer 'sdfdf' does not address the question or demonstrate any Java programming skills. ['Provide a complete Java function that solves a common problem, such as reversing a string, finding the factorial of a number, or implementing a sorting algorithm.', 'Ensure the code is syntactically correct and includes proper method signatures, variable declarations, and logic to solve the problem.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 13:42:11",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 610.9029796123505,
+      "qa_history": [
+        {
+          "q": "What is the difference between an `ArrayList` and a `LinkedList` in Java, and when would you choose one over the other?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Study the differences between `ArrayList` and `LinkedList` in Java, including their underlying data structures and performance characteristics.', 'Practice explaining when to use each type of list, considering factors like access patterns (random access vs. frequent insertions/deletions).']"
+        },
+        {
+          "q": "What is the purpose of the `final` keyword in Java, and how can it be applied to variables, methods, and classes?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Review the purpose and usage of the `final` keyword in Java, including its application to variables, methods, and classes.', 'Practice explaining Java concepts clearly and concisely to demonstrate understanding during technical interviews.']"
+        },
+        {
+          "q": "Write a Java method called `countVowels` that takes a String as input and returns the number of vowels (a, e, i, o, u) in the string, case-insensitive. For example, if the input is \"Hello World\", the method should return 3.",
+          "a": "sdfd",
+          "score": 0,
+          "feedback": "The candidate did not provide any valid Java code to solve the problem. The answer 'sdfd' is not a method or any form of code that addresses the requirement. ['Provide a complete Java method that implements the `countVowels` functionality as described in the question.', 'Ensure the method handles case-insensitivity and correctly counts the vowels in the input string.']"
+        },
+        {
+          "q": "Explain an advanced concept or best practice related to java.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Encourage the candidate to attempt an answer, even if unsure, to demonstrate problem-solving or partial knowledge.', \"Provide a hint or rephrase the question to guide the candidate toward a relevant concept (e.g., 'Could you discuss Java memory model or concurrency best practices?').\"]"
+        },
+        {
+          "q": "Write a function to solve a common problem using java.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code or answer was provided by the candidate to evaluate. ['Provide a solution to the problem to demonstrate your Java programming skills.', 'If you are unsure about the problem, ask clarifying questions to better understand the requirements before attempting to solve it.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 15:09:26",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 60.47987771034241,
+      "qa_history": [
+        {
+          "q": "How would you explain the difference between Spring and Spring Boot, and when would you choose one over the other for a project?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Study the core differences between Spring and Spring Boot, including their purposes and use cases.', 'Practice explaining technical concepts clearly and concisely to demonstrate understanding during interviews.']"
+        },
+        {
+          "q": "What is the purpose of the `@SpringBootApplication` annotation in a Spring Boot application, and what three core annotations does it combine?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Study the purpose of the `@SpringBootApplication` annotation and its core components in Spring Boot.', 'Review the documentation or tutorials on Spring Boot annotations to understand how they simplify configuration.']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Spring Boot REST controller method that accepts a JSON payload containing a list of integers and returns the sum of all even numbers in the list. The endpoint should be accessible via a POST request to `/sum-even`.  \n\nExample Input:  \n```json\n{\n  \"numbers\": [1, 2, 3, 4, 5, 6]\n}\n```  \n\nExample Output:  \n```json\n{\n  \"sum\": 12\n}\n```  \n\nAssume the input will always be a valid JSON object with a `numbers` array. Implement the solution in Java using Spring Boot annotations.",
+          "a": "asfddfds",
+          "score": 0,
+          "feedback": "No valid code was provided. The candidate's answer 'asfddfds' is not a valid Java or Spring Boot implementation. ['Provide a complete Spring Boot REST controller method with proper annotations and logic to sum even numbers.', 'Ensure the method handles the input and output as specified in the question, including proper JSON parsing and response.']"
+        },
+        {
+          "q": "**Question:**  \n\nIn a Spring Boot application, how would you implement a custom health indicator to check the availability of an external API, and what Spring Boot actuator endpoint would you use to expose this health check? Provide a brief explanation of the steps involved.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. [\"Study Spring Boot Actuator's Health Indicators and how to create custom ones.\", 'Review the documentation on exposing health checks via Actuator endpoints, particularly the `/actuator/health` endpoint.']"
+        },
+        {
+          "q": "**Question:**  \n\nCreate a Spring Boot service method to validate if a given string is a palindrome (reads the same backward as forward, ignoring case and non-alphanumeric characters). The method should be exposed as a REST endpoint at `/check-palindrome` that accepts a POST request with a JSON payload like:  \n\n```json\n{\n  \"text\": \"A man, a plan, a canal: Panama\"\n}\n```  \n\nThe response should return a boolean indicating whether the input is a palindrome:  \n\n```json\n{\n  \"isPalindrome\": true\n}\n```  \n\nImplement the solution in Java using Spring Boot annotations, ensuring the logic handles case insensitivity and ignores non-alphanumeric characters.",
+          "a": "dsfsdf",
+          "score": 0,
+          "feedback": "No valid code was provided by the candidate. The answer 'dsfsdf' is not a solution to the problem and does not address any of the evaluation criteria. ['Provide a complete implementation of the Spring Boot service method, including the REST endpoint and palindrome validation logic.', 'Ensure the solution handles case insensitivity and ignores non-alphanumeric characters as specified in the problem statement.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 15:54:39",
+      "role": "Java Developer",
+      "score": 5,
+      "max_score": 100,
+      "percentage": 5.0,
+      "time_taken": 198.11017727851868,
+      "qa_history": [
+        {
+          "q": "Explain how the Java Memory Model (JMM) ensures visibility and ordering guarantees when multiple threads access shared variables, and discuss the role of `volatile`, `synchronized`, and `final` in maintaining these guarantees.",
+          "a": "JMM ensures that all the objects are defined in a sequential order without causing any condition that could lead to deadlock",
+          "score": 5,
+          "feedback": "The answer partially touches on ordering but fails to address visibility, the role of `volatile`, `synchronized`, and `final`, and incorrectly mentions deadlock (which is unrelated to JMM's guarantees). ['Clarify how JMM ensures visibility (e.g., happens-before relationships) and ordering (e.g., program order, synchronization order).', 'Explain the specific roles of `volatile` (visibility and ordering), `synchronized` (mutual exclusion and happens-before), and `final` (safe publication).']"
+        },
+        {
+          "q": "Describe the differences between the `ExecutorService` and `ForkJoinPool` frameworks in Java, and explain the scenarios where one would be more suitable than the other for managing concurrent tasks.",
+          "a": "I don't like gulab jamun",
+          "score": 0,
+          "feedback": "The answer is completely off-topic and does not address the technical question about `ExecutorService` and `ForkJoinPool`. ['Focus on the technical aspects of the question, such as the differences between `ExecutorService` and `ForkJoinPool` and their use cases.', 'Avoid irrelevant or non-technical responses in a technical interview setting.']"
+        },
+        {
+          "q": "**Question:**  \n\nImplement a thread-safe, blocking queue in Java using `ReentrantLock` and `Condition` that supports the following operations:  \n- `void put(T item)`: Adds an item to the queue, blocking if the queue is full.  \n- `T take()`: Removes and returns an item from the queue, blocking if the queue is empty.  \n\nThe queue should have a fixed capacity specified during initialization. Ensure proper synchronization and avoid busy-waiting. Your implementation should handle thread interruptions appropriately.  \n\nProvide the complete class definition for `BlockingQueueWithLocks<T>`.",
+          "a": "print(\"hello world\")",
+          "score": 0,
+          "feedback": "The candidate's response 'print(\"hello world\")' is completely off-topic and does not address the question. The task was to implement a thread-safe blocking queue using `ReentrantLock` and `Condition`, but the provided answer is unrelated to the problem. ['The candidate should carefully read the question and ensure the response directly addresses the requirements.', 'The candidate should provide a complete implementation of the `BlockingQueueWithLocks<T>` class as specified, including the required methods `put` and `take` with proper synchronization using `ReentrantLock` and `Condition`.']"
+        },
+        {
+          "q": "**Question:**  \n\nExplain the concept of *happens-before* relationships in Java's concurrency model, and discuss how they can be established using different synchronization mechanisms such as `synchronized` blocks, `volatile` variables, and `Thread.start()/Thread.join()`. Provide examples where violating these relationships could lead to subtle concurrency bugs.",
+          "a": "Blaah",
+          "score": 0,
+          "feedback": "The answer is off-topic and does not address the technical requirements of the question. [\"Ensure the response directly explains the 'happens-before' relationship in Java's concurrency model.\", 'Provide specific examples of how synchronization mechanisms like `synchronized`, `volatile`, and `Thread.start()/Thread.join()` establish these relationships, along with potential bugs from violations.']"
+        },
+        {
+          "q": "**Question:**  \n\nImplement a thread-safe, rate-limiting mechanism in Java using `Semaphore` that allows a maximum of `N` operations per second. The class should provide a method `void execute(Runnable task)` which executes the given task if the rate limit is not exceeded; otherwise, it should block until the next available time slot.  \n\nThe rate limiter should reset the available permits every second (e.g., if `N = 5`, it allows 5 tasks in the first second, then another 5 in the next second, etc.).  \n\nProvide the complete class definition for `RateLimiter` and ensure thread safety without using explicit locks. Handle thread interruptions appropriately.",
+          "a": "print(\"Saurabh is great\")",
+          "score": 0,
+          "feedback": "The candidate did not provide any code or solution to the problem. Instead, they printed an unrelated message. This does not address the question requirements in any way. ['Provide a complete implementation of the `RateLimiter` class as described in the question.', 'Ensure the solution is thread-safe, uses `Semaphore`, and handles rate limiting correctly with proper reset logic every second.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 15:56:58",
+      "role": "Java Developer",
+      "score": 5,
+      "max_score": 100,
+      "percentage": 5.0,
+      "time_taken": 337.5004622936249,
+      "qa_history": [
+        {
+          "q": "Explain how the Java Memory Model (JMM) ensures visibility and ordering guarantees when multiple threads access shared variables, and discuss the role of `volatile`, `synchronized`, and `final` in maintaining these guarantees.",
+          "a": "JMM ensures that all the objects are defined in a sequential order without causing any condition that could lead to deadlock",
+          "score": 5,
+          "feedback": "The answer partially touches on ordering but fails to address visibility, the role of `volatile`, `synchronized`, and `final`, and incorrectly mentions deadlock (which is unrelated to JMM's guarantees). ['Clarify how JMM ensures visibility (e.g., happens-before relationships) and ordering (e.g., program order, synchronization order).', 'Explain the specific roles of `volatile` (visibility and ordering), `synchronized` (mutual exclusion and happens-before), and `final` (safe publication).']"
+        },
+        {
+          "q": "Describe the differences between the `ExecutorService` and `ForkJoinPool` frameworks in Java, and explain the scenarios where one would be more suitable than the other for managing concurrent tasks.",
+          "a": "I don't like gulab jamun",
+          "score": 0,
+          "feedback": "The answer is completely off-topic and does not address the technical question about `ExecutorService` and `ForkJoinPool`. ['Focus on the technical aspects of the question, such as the differences between `ExecutorService` and `ForkJoinPool` and their use cases.', 'Avoid irrelevant or non-technical responses in a technical interview setting.']"
+        },
+        {
+          "q": "**Question:**  \n\nImplement a thread-safe, blocking queue in Java using `ReentrantLock` and `Condition` that supports the following operations:  \n- `void put(T item)`: Adds an item to the queue, blocking if the queue is full.  \n- `T take()`: Removes and returns an item from the queue, blocking if the queue is empty.  \n\nThe queue should have a fixed capacity specified during initialization. Ensure proper synchronization and avoid busy-waiting. Your implementation should handle thread interruptions appropriately.  \n\nProvide the complete class definition for `BlockingQueueWithLocks<T>`.",
+          "a": "print(\"hello world\")",
+          "score": 0,
+          "feedback": "The candidate's response 'print(\"hello world\")' is completely off-topic and does not address the question. The task was to implement a thread-safe blocking queue using `ReentrantLock` and `Condition`, but the provided answer is unrelated to the problem. ['The candidate should carefully read the question and ensure the response directly addresses the requirements.', 'The candidate should provide a complete implementation of the `BlockingQueueWithLocks<T>` class as specified, including the required methods `put` and `take` with proper synchronization using `ReentrantLock` and `Condition`.']"
+        },
+        {
+          "q": "**Question:**  \n\nExplain the concept of *happens-before* relationships in Java's concurrency model, and discuss how they can be established using different synchronization mechanisms such as `synchronized` blocks, `volatile` variables, and `Thread.start()/Thread.join()`. Provide examples where violating these relationships could lead to subtle concurrency bugs.",
+          "a": "Blaah",
+          "score": 0,
+          "feedback": "The answer is off-topic and does not address the technical requirements of the question. [\"Ensure the response directly explains the 'happens-before' relationship in Java's concurrency model.\", 'Provide specific examples of how synchronization mechanisms like `synchronized`, `volatile`, and `Thread.start()/Thread.join()` establish these relationships, along with potential bugs from violations.']"
+        },
+        {
+          "q": "**Question:**  \n\nImplement a thread-safe, rate-limiting mechanism in Java using `Semaphore` that allows a maximum of `N` operations per second. The class should provide a method `void execute(Runnable task)` which executes the given task if the rate limit is not exceeded; otherwise, it should block until the next available time slot.  \n\nThe rate limiter should reset the available permits every second (e.g., if `N = 5`, it allows 5 tasks in the first second, then another 5 in the next second, etc.).  \n\nProvide the complete class definition for `RateLimiter` and ensure thread safety without using explicit locks. Handle thread interruptions appropriately.",
+          "a": "print(\"Saurabh is great\")",
+          "score": 0,
+          "feedback": "The candidate did not provide any code or solution to the problem. Instead, they printed an unrelated message. This does not address the question requirements in any way. ['Provide a complete implementation of the `RateLimiter` class as described in the question.', 'Ensure the solution is thread-safe, uses `Semaphore`, and handles rate limiting correctly with proper reset logic every second.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 16:24:54",
+      "role": "Python Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 93.95511627197266,
+      "qa_history": [
+        {
+          "q": "How would you design a RESTful API in Python to handle rate limiting, and what strategies would you implement to ensure scalability and maintainability while adhering to REST principles?",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "The candidate's answer 'asdf' is completely off-topic and does not address any of the technical requirements. ['Provide a detailed explanation of how to implement rate limiting in a RESTful API using Python, including libraries like Flask-Limiter or Django Ratelimit.', 'Discuss strategies for scalability (e.g., caching, load balancing) and maintainability (e.g., modular design, documentation) while adhering to REST principles.']"
+        },
+        {
+          "q": "What are the key considerations and potential challenges when designing an asynchronous API using Python's `asyncio` framework, and how would you ensure thread safety and efficient resource management in a high-concurrency environment?",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "The answer 'asdf' is completely off-topic and does not address any of the technical requirements. ['Provide a detailed response covering key considerations like event loop management, async/await patterns, and error handling.', 'Discuss thread safety mechanisms such as locks or thread-local storage, and resource management strategies like connection pooling or rate limiting.']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Python function called `fetch_and_merge_data` that takes two API endpoints as input (provided as strings), fetches JSON data from both endpoints asynchronously, and returns a merged dictionary containing the combined data. If the keys in the responses overlap, prioritize the values from the second API. Handle potential errors such as failed requests, invalid JSON responses, or timeouts gracefully by logging the error and continuing with the available data.  \n\nExample usage:  \n```python\nresult = fetch_and_merge_data(\"https://api.example.com/data1\", \"https://api.example.com/data2\")\n```  \n\nAssume you can use libraries like `aiohttp` or `requests`. Write clean, production-ready code with appropriate error handling.",
+          "a": "adsf",
+          "score": 0,
+          "feedback": "No code was provided by the candidate. The answer 'adsf' is off-topic and does not address the question in any way. ['Provide a complete Python function that implements the required functionality, including asynchronous API calls and error handling.', 'Ensure the code is well-structured and handles edge cases such as failed requests, invalid JSON responses, and timeouts.']"
+        },
+        {
+          "q": "**Question:**  \n\nExplain how you would design a Python-based API wrapper that supports both synchronous and asynchronous usage patterns, allowing users to choose between `requests` for synchronous calls and `aiohttp` for asynchronous calls while maintaining a consistent interface. What design patterns or architectural decisions would you employ to avoid code duplication and ensure maintainability?",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "The answer 'asdf' is completely off-topic and does not address the technical requirements of the question. ['Provide a detailed explanation of how you would design the API wrapper, including the use of design patterns like Adapter or Strategy to handle both synchronous and asynchronous calls.', 'Discuss how to maintain a consistent interface while avoiding code duplication, possibly by abstracting common logic into a base class or utility functions.']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Python function called `paginated_api_fetcher` that takes a base API URL (string) and a list of query parameters (dictionary) as input. The function should handle paginated responses by detecting and following pagination links (e.g., `next` or `Link` headers) until all data is retrieved. The function must return a single list containing all aggregated results from all pages.  \n\nHandle edge cases such as:  \n- Missing or malformed pagination headers  \n- Rate limiting (implement exponential backoff)  \n- Empty or incomplete responses  \n\nAssume the API returns JSON with pagination structure like `{\"results\": [...], \"next\": \"url\"}` or uses HTTP `Link` headers.  \n\nExample usage:  \n```python\ndata = paginated_api_fetcher(\"https://api.example.com/items\", {\"page_size\": 100})\n```  \n\nUse libraries like `requests` or `aiohttp` and write production-ready code with proper error handling.",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "The candidate provided 'asdf' as the answer, which is not valid Python code and does not address the question in any way. This response fails to meet all evaluation criteria: correctness, code quality, efficiency, and edge case handling. ['Provide a complete Python function that implements the required functionality, including handling pagination, rate limiting, and edge cases.', 'Use appropriate libraries like `requests` or `aiohttp` and ensure the code is production-ready with proper error handling.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 16:30:10",
+      "role": "DevOps Engineer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 75.81744718551636,
+      "qa_history": [
+        {
+          "q": "Explain how you would design a multi-tenant Kubernetes cluster to ensure resource isolation, security, and cost efficiency while accommodating varying workload demands from different teams.",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "The answer 'asdf' is completely off-topic and does not address any of the technical requirements. ['Provide a detailed explanation of how you would design a multi-tenant Kubernetes cluster, covering resource isolation, security, and cost efficiency.', 'Include specific Kubernetes features or tools you would use, such as namespaces, ResourceQuotas, NetworkPolicies, or RBAC.']"
+        },
+        {
+          "q": "**\"How would you architect a Kubernetes-based solution to ensure zero-downtime deployments for a stateful application with strict data consistency requirements?\"**",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "The answer 'asdf' is completely off-topic and does not address the technical requirements of the question. ['Provide a detailed explanation of how you would use Kubernetes features like StatefulSets, rolling updates, and persistent volumes to ensure zero-downtime deployments.', 'Discuss strategies for maintaining data consistency, such as using ReadWriteOnce volumes, database replication, or quorum-based writes.']"
+        },
+        {
+          "q": "**\"Write a Python script that automates the scaling of Kubernetes deployments based on custom metrics collected from Prometheus. The script should query Prometheus for a specific metric (e.g., requests per second), compare it against predefined thresholds, and scale the deployment up or down accordingly. Include error handling for cases where the Prometheus query fails or the deployment scaling operation encounters issues.\"**",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "The candidate provided 'asdf' as the answer, which is completely off-topic and does not address the question in any way. No code was provided, and the response does not demonstrate any understanding of the problem or the required solution. ['Provide a complete Python script that interacts with Kubernetes and Prometheus to automate scaling based on custom metrics.', 'Ensure the script includes error handling for Prometheus queries and Kubernetes operations, as specified in the question.']"
+        },
+        {
+          "q": "**\"Describe how you would implement a canary deployment strategy in Kubernetes, including the use of service meshes or ingress controllers, and discuss the key metrics you would monitor to determine the success or failure of the canary release.\"**",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "The answer 'asdf' is completely off-topic and does not address the technical requirements of the question. ['Provide a detailed explanation of how to implement a canary deployment in Kubernetes, including the use of service meshes or ingress controllers.', 'Discuss the key metrics to monitor for evaluating the success or failure of the canary release.']"
+        },
+        {
+          "q": "**\"Write a Kubernetes Operator in Go or Python that automatically detects and remediates failed pods in a specified namespace. The operator should monitor pods with a specific label selector, identify those in a 'CrashLoopBackOff' state, and attempt to fix them by first deleting the failed pod and then logging the incident. Include logic to limit the number of remediation attempts per pod to prevent infinite loops. The solution should demonstrate your understanding of Kubernetes APIs and controller patterns.\"**",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate's answer 'asdf' does not address the question or demonstrate any understanding of the problem or Kubernetes Operator development. ['Provide a complete implementation of the Kubernetes Operator in Go or Python as specified in the question.', \"Ensure the code includes all required functionalities: monitoring pods with a specific label selector, detecting 'CrashLoopBackOff' state, remediating by deleting the failed pod, logging the incident, and limiting remediation attempts.\"]"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 16:33:58",
+      "role": "Data Engineer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 78.56545042991638,
+      "qa_history": [
+        {
+          "q": "How would you design an idempotent and fault-tolerant Airflow DAG to handle incremental data loads from multiple sources, ensuring that retries do not cause duplicate processing or data corruption?",
+          "a": "wsd",
+          "score": 0,
+          "feedback": "The answer 'wsd' is off-topic and does not address the technical requirements of the question. ['Provide a detailed explanation of how to design an idempotent and fault-tolerant Airflow DAG for incremental data loads.', 'Include specific techniques like task idempotency, checkpointing, or deduplication strategies to avoid duplicate processing.']"
+        },
+        {
+          "q": "How would you architect an Airflow DAG to dynamically generate tasks based on external configuration files, while ensuring proper dependency management and avoiding code duplication across similar task patterns?",
+          "a": "xsxd",
+          "score": 0,
+          "feedback": "The answer 'xsxd' is completely off-topic and does not address the technical requirements of the question. ['Provide a detailed explanation of how to use external configuration files to dynamically generate tasks in Airflow.', 'Include examples of how to manage dependencies and avoid code duplication in the DAG architecture.']"
+        },
+        {
+          "q": "Write an Airflow DAG that processes a batch of CSV files from an S3 bucket, validates each file's schema against a predefined schema (ensuring required columns and data types match), and moves valid files to a \"processed\" folder while logging errors for invalid files. The DAG should run daily and handle cases where no files are present. Implement the DAG using PythonOperator or TaskFlow API, including the validation logic within the DAG code.",
+          "a": "axssx",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate's response 'axssx' does not address the question or demonstrate any attempt to solve the problem. ['Provide a complete implementation of the Airflow DAG as described in the question.', 'Ensure the validation logic for CSV files is included and properly integrated with the DAG.']"
+        },
+        {
+          "q": "How would you design an Airflow DAG to manage a complex dependency graph where certain tasks must be conditionally executed based on the output or state of previous tasks, while maintaining modularity and avoiding monolithic DAG structures?",
+          "a": "sxcsx",
+          "score": 0,
+          "feedback": "The answer is off-topic and does not address the technical requirements of the question. ['Provide a detailed explanation of how to design an Airflow DAG with conditional task execution using features like BranchPythonOperator or ShortCircuitOperator.', 'Discuss strategies for maintaining modularity, such as using subDAGs or task groups, and avoiding monolithic structures.']"
+        },
+        {
+          "q": "Write an Airflow DAG that monitors a database table for new records added within the last hour, processes each new record by calling an external API to fetch additional data, and stores the enriched records in another table. The DAG should run every hour, handle API rate limits gracefully with exponential backoff, and log any failed API calls for retry in subsequent runs. Implement the DAG using PythonOperator or TaskFlow API, including the database query and API call logic within the DAG code.",
+          "a": "asdwds",
+          "score": 0,
+          "feedback": "No valid code was provided to evaluate. The candidate's answer 'asdwds' is not a solution to the problem and does not address any of the requirements. ['Provide a complete Airflow DAG implementation that includes the required functionality: monitoring a database table, calling an external API with exponential backoff, and storing enriched records.', 'Ensure the code handles edge cases such as API rate limits, failed API calls, and database connectivity issues.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 16:38:26",
+      "role": "Database Administrator",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 72.30337977409363,
+      "qa_history": [
+        {
+          "q": "How would you design a sharding strategy for a high-write PostgreSQL database to ensure optimal performance, and what factors would you consider when choosing between key-based, range-based, or hash-based sharding approaches?",
+          "a": "qsadx",
+          "score": 0,
+          "feedback": "The answer 'qsadx' is completely off-topic and does not address the technical requirements of the question. ['Provide a detailed explanation of sharding strategies (key-based, range-based, hash-based) and their trade-offs.', 'Discuss factors like data distribution, query patterns, and scalability when choosing a sharding approach.']"
+        },
+        {
+          "q": "How would you approach optimizing a complex query in MySQL that involves multiple joins, subqueries, and aggregations, and what indexing strategies or query restructuring techniques would you consider to improve its performance?",
+          "a": "adwd",
+          "score": 0,
+          "feedback": "The answer is off-topic and does not address the technical requirements of optimizing a complex query in MySQL. ['Provide a detailed explanation of indexing strategies such as creating indexes on join columns, using covering indexes, or considering composite indexes.', 'Discuss query restructuring techniques like rewriting subqueries as joins, using temporary tables, or breaking the query into smaller parts.']"
+        },
+        {
+          "q": "Write a PostgreSQL function named `analyze_query_performance` that takes a SQL query string as input and returns a JSON object containing:  \n1) The query plan in JSON format  \n2) The execution time in milliseconds  \n3) A list of indexes that would potentially improve performance, based on the query plan analysis  \n\nThe function should execute the input query safely (prevent SQL injection) and analyze its performance without modifying the database. Include error handling for invalid queries.  \n\nExample usage:  \n```sql\nSELECT analyze_query_performance('SELECT * FROM orders WHERE customer_id = 123 AND order_date > NOW() - INTERVAL ''30 days''');\n```",
+          "a": "efedew",
+          "score": 0,
+          "feedback": "No code was submitted for evaluation. The candidate provided 'efedew' which is not a valid response to the coding question. ['Provide a complete PostgreSQL function that meets all the specified requirements.', 'Ensure the function includes proper error handling and safe execution of the input query to prevent SQL injection.']"
+        },
+        {
+          "q": "Describe how you would implement a multi-tenant database architecture in PostgreSQL, considering both schema-based and row-based isolation approaches. What are the trade-offs between these methods in terms of performance, maintenance, and scalability?",
+          "a": "wsdded",
+          "score": 0,
+          "feedback": "The answer 'wsdded' is completely off-topic and does not address the technical requirements. ['Provide a detailed explanation of schema-based and row-based isolation approaches in PostgreSQL.', 'Discuss the trade-offs between these methods in terms of performance, maintenance, and scalability.']"
+        },
+        {
+          "q": "Write a PostgreSQL function named `identify_deadlocks` that monitors the database for deadlock occurrences over a specified time window (in seconds) and returns a report with the following details for each deadlock detected:  \n1) The transaction IDs involved  \n2) The queries that caused the deadlock  \n3) The tables and rows locked by each transaction  \n4) The time of occurrence  \n\nThe function should accept the time window as an input parameter and use PostgreSQL's system views (e.g., `pg_stat_activity`, `pg_locks`) to gather the required information. Ensure the function handles cases where no deadlocks occur during the specified period.  \n\nExample usage:  \n```sql\nSELECT * FROM identify_deadlocks(300); -- Monitor for deadlocks in the last 5 minutes\n```",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate's answer 'asdf' does not address the question or demonstrate any attempt to solve the problem. ['Provide a complete PostgreSQL function that meets the requirements specified in the question.', \"Ensure the function uses PostgreSQL's system views (e.g., `pg_stat_activity`, `pg_locks`) to gather the required information and handles cases where no deadlocks occur.\"]"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 16:44:50",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 62.88481092453003,
+      "qa_history": [
+        {
+          "q": "Explain how Maven and Gradle handle dependency resolution differently, and discuss the advantages and disadvantages of each approach in the context of a large-scale enterprise Java project.",
+          "a": "asdf",
+          "score": 0,
+          "feedback": "The answer 'asdf' is completely off-topic and does not address the question about Maven and Gradle dependency resolution. [\"Provide a detailed explanation of how Maven and Gradle handle dependency resolution, including their respective dependency management models (e.g., Maven's POM vs. Gradle's DSL).\", 'Discuss the pros and cons of each tool in the context of large-scale projects, such as performance, flexibility, and maintainability.']"
+        },
+        {
+          "q": "Compare and contrast the use of Maven's Bill of Materials (BOM) versus Gradle's platform dependencies for managing transitive dependencies in a multi-module Java project. What are the key trade-offs between these approaches?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. [\"Study the concepts of Maven's Bill of Materials (BOM) and Gradle's platform dependencies to understand their roles in dependency management.\", 'Practice explaining how these tools handle transitive dependencies in multi-module projects, focusing on their similarities and trade-offs.']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Java method that uses Maven or Gradle to dynamically resolve and load a specific version of a dependency at runtime. The method should:  \n\n1. Accept a dependency coordinate (groupId, artifactId, version) as input.  \n2. Programmatically resolve the dependency using either Maven's `Aether` or Gradle's `DependencyHandler`.  \n3. Load the resolved JAR into the classpath.  \n4. Return `true` if the dependency was successfully resolved and `false` otherwise.  \n\nAssume the build tool (Maven/Gradle) is already configured in the project. Provide the method implementation and any necessary setup code.  \n\n**Example Input:**  \n```java\nboolean success = loadDependency(\"org.apache.commons\", \"commons-lang3\", \"3.12.0\");\n```",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate, making it impossible to evaluate correctness, code quality, efficiency, or edge case handling. [\"Provide a Java method implementation that uses Maven's Aether` or Gradle's `DependencyHandler` to dynamically resolve and load a dependency.\", 'Include error handling for cases where the dependency cannot be resolved or loaded into the classpath.']"
+        },
+        {
+          "q": "**Question:**  \n\nIn a multi-module Java project using Gradle, how would you implement a custom task that enforces a version alignment strategy across all subprojects, ensuring that all modules use the same version of a specified set of dependencies? Describe the key components of your solution, including any Gradle APIs or DSL features you would leverage.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. [\"Consider explaining how to use Gradle's `dependencyResolutionManagement` or `platform`/`enforcedPlatform` to enforce version alignment.\", 'Describe how to create a custom task or plugin to validate dependency versions across subprojects.']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Java method that uses Maven's `ProjectBuilder` or Gradle's `ProjectConnection` API to programmatically parse a `pom.xml` or `build.gradle` file and extract all declared dependencies (including their groupId, artifactId, and version). The method should:  \n\n1. Accept a file path (String) pointing to either a `pom.xml` or `build.gradle` file.  \n2. Detect the build tool type (Maven or Gradle) based on the file extension.  \n3. Parse the file and collect all dependencies into a list of `Dependency` objects (you may define this class).  \n4. Return the list of dependencies.  \n\nHandle any potential parsing errors gracefully and return an empty list if the file is invalid or unsupported.  \n\n**Example Input:**  \n```java\nList<Dependency> dependencies = extractDependencies(\"/path/to/project/pom.xml\");  \n```",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate skipped the question, so it's impossible to assess correctness, code quality, efficiency, or edge case handling. ['Provide a complete implementation that addresses the requirements, including handling both Maven and Gradle files.', 'Ensure the code includes error handling for invalid or unsupported file types.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 16:47:33",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 54.99087882041931,
+      "qa_history": [
+        {
+          "q": "How would you design a Spring Boot application to handle concurrent requests efficiently while ensuring thread safety, and what Spring features or design patterns would you leverage to achieve this?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. [\"The candidate should study Spring Boot's concurrency handling mechanisms, such as `@Async`, `ThreadPoolTaskExecutor`, and `@Transactional` for thread safety.\", 'The candidate should also explore design patterns like the Thread Pool pattern or the Producer-Consumer pattern to manage concurrent requests efficiently.']"
+        },
+        {
+          "q": "How would you implement a retry mechanism for a failed external API call in a Spring Boot application, and what Spring components or patterns would you use to ensure it is both resilient and maintainable?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Consider explaining the use of Spring Retry or Resilience4j for implementing retry mechanisms.', \"Mention how to configure retry policies (e.g., max attempts, backoff strategies) and integrate them with Spring Boot's @Retryable or Circuit Breaker patterns.\"]"
+        },
+        {
+          "q": "**Question:**  \n\n\"Implement a REST endpoint in Spring Boot that accepts a list of user IDs and returns their details in bulk. The endpoint should fetch user data from a database (simulated with an in-memory map for this exercise) and handle cases where some users might not exist.  \n\nRequirements:  \n1. Use Spring Boot with a proper controller/service structure.  \n2. The response should include only the found users (no errors for missing users).  \n3. Optimize the database query to fetch all users in a single call (avoid N+1 queries).  \n\nProvide the code for the controller, service, and any helper classes or methods you\u2019d use.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate, making it impossible to evaluate correctness, code quality, efficiency, or edge case handling. ['Encourage the candidate to attempt the problem, even if they are unsure, to demonstrate partial understanding or problem-solving approach.', 'Provide a basic structure or hints to guide the candidate if they are stuck (e.g., suggest using a `Map` for the in-memory database or a `@GetMapping` for the endpoint).']"
+        },
+        {
+          "q": "**Question:**  \n\n\"In a Spring Boot microservice, how would you design a caching strategy for frequently accessed but rarely updated data, considering both local (in-memory) and distributed (e.g., Redis) caching? Discuss the trade-offs, Spring annotations or configurations you'd use, and how you'd handle cache invalidation.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. [\"The candidate should familiarize themselves with Spring's caching annotations like @Cacheable, @CacheEvict, and @CachePut, as well as the configuration of caching providers such as Caffeine for local cache and Redis for distributed cache.\", 'The candidate should understand the trade-offs between local and distributed caching, such as latency vs. consistency, and how to handle cache invalidation strategies like time-to-live (TTL) or manual eviction.']"
+        },
+        {
+          "q": "**Question:**  \n\n\"Implement a Spring Boot service that processes a batch of orders asynchronously. The service should:  \n\n1. Accept a list of order IDs via a REST endpoint.  \n2. For each order, fetch the order details from a simulated database (use an in-memory map).  \n3. Apply a discount of 10% to each order amount if the order total is greater than $100.  \n4. Process the orders concurrently using Spring's `@Async` and return a summary of the processed orders (including original and discounted amounts) once all are completed.  \n\nProvide the code for the controller, service, and any necessary configurations (e.g., `@EnableAsync`). Ensure thread safety when accessing shared resources.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate, making it impossible to evaluate correctness, code quality, efficiency, or edge case handling. ['Provide a complete implementation of the Spring Boot service as described in the question, including the controller, service, and necessary configurations.', 'Ensure the solution demonstrates proper use of `@Async` for concurrent processing and thread safety when accessing shared resources like the in-memory map.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 17:07:33",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 52.766355752944946,
+      "qa_history": [
+        {
+          "q": "How would you design a JPA entity to model a many-to-many relationship between `User` and `Role` entities, and what considerations would you take into account to ensure optimal performance when querying the roles for a specific user?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The answer is off-topic as the candidate skipped the question. ['The candidate should attempt to outline a basic JPA entity structure for a many-to-many relationship, even if unsure.', 'The candidate could mention common performance considerations like lazy loading, indexing, or join table optimizations.']"
+        },
+        {
+          "q": "How would you handle optimistic locking in JPA to prevent concurrent updates to the same entity, and what are the trade-offs of using `@Version` annotation versus a custom timestamp-based approach?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['The candidate should explain how optimistic locking works in JPA, including the use of the `@Version` annotation.', 'The candidate should compare the trade-offs between using `@Version` and a custom timestamp-based approach, such as performance impact and precision.']"
+        },
+        {
+          "q": "Write a Java method using JPA that retrieves all employees from a database who have a salary greater than a specified amount and belong to a specific department. The method should accept the department name and minimum salary as parameters and return a list of `Employee` entities. Assume the `Employee` entity has fields `id`, `name`, `salary`, and `department` (where `department` is a string). The method should use a named query for optimal performance.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate skipped the question, so it's impossible to assess correctness, code quality, efficiency, or edge case handling. ['Provide a complete implementation of the method using JPA and a named query to demonstrate understanding of the requirements.', 'Ensure the method handles potential edge cases, such as null parameters or empty results, to improve robustness.']"
+        },
+        {
+          "q": "Explain the difference between lazy loading and eager loading in JPA, and describe a scenario where using lazy loading strategy could lead to a `LazyInitializationException`. How would you resolve this issue while maintaining performance?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Study the concepts of lazy loading and eager loading in JPA, including their use cases and implications.', 'Understand the causes of `LazyInitializationException` and how to resolve it, such as using `FetchType.EAGER`, `EntityGraph`, or `JOIN FETCH` in queries.']"
+        },
+        {
+          "q": "Write a Java method using JPA that updates the status of all orders in a database that are older than a specified date and have a status of \"PENDING\". The method should accept the cutoff date and the new status as parameters, and return the number of orders updated. Assume the `Order` entity has fields `id`, `orderDate`, `status`, and other relevant attributes. Use a bulk update query for efficiency.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate skipped the question, so it's impossible to assess correctness, code quality, efficiency, or edge case handling. ['Provide a complete Java method using JPA that performs the required bulk update operation.', 'Ensure the method handles potential exceptions, such as database connection issues or invalid input parameters.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 17:14:22",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 92.18037152290344,
+      "qa_history": [
+        {
+          "q": "How would you design a multi-module Maven or Gradle project to ensure efficient dependency management and minimize transitive dependency conflicts between modules?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['The candidate should research and understand the basics of multi-module projects in Maven/Gradle, including dependency management and conflict resolution.', \"The candidate could explore tools like Maven's dependencyManagement or Gradle's constraints to manage transitive dependencies effectively.\"]"
+        },
+        {
+          "q": "**\"Explain how you would use Maven or Gradle to enforce a consistent code style and static code analysis across a multi-developer project, including the tools or plugins you would integrate and the configuration approach you would take.\"**",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The answer is off-topic as the candidate skipped the question. ['The candidate should provide a detailed explanation of how they would use Maven or Gradle to enforce code style and static analysis, including specific plugins like Checkstyle`, `PMD`, or `SpotBugs`.', 'The candidate should describe the configuration would be shared across the team (e.g., via a parent POM or Gradle init script) to ensure consistency.']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Gradle task in Kotlin DSL that dynamically filters and copies all `.jar` files from a specified directory (e.g., `libs/`) into a new directory (e.g., `filtered-libs/`), but only if the `.jar` file's name contains a specific substring (e.g., \"core\"). The task should also log the names of the copied files.  \n\nYour solution should:  \n1. Use Gradle's `Copy` task type.  \n2. Accept the source directory, target directory, and filter substring as configurable inputs.  \n3. Skip the task if the source directory does not exist or contains no matching files.  \n\nProvide the full task definition.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate, so the question remains unanswered. A score of 0 is given as there is nothing to evaluate. ['Provide a complete Gradle task definition in Kotlin DSL that meets all the specified requirements.', 'Ensure the task handles edge cases such as non-existent source directories or no matching files.']"
+        },
+        {
+          "q": "**\"Describe how you would use Maven or Gradle to manage and optimize the build lifecycle for a large-scale project with multiple subprojects, including strategies for incremental builds, caching, and parallel execution to improve build performance.\"**",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The answer is skipped and does not address the technical requirements of the question. ['Provide a detailed explanation of how Maven or Gradle can be configured for incremental builds, caching, and parallel execution in a multi-project setup.', \"Include specific examples or commands (e.g., Gradle's `--parallel` flag or Maven's `-T` option) to demonstrate practical implementation.\"]"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Maven plugin in Java that validates all `.properties` files in a specified directory (e.g., `src/main/resources/`) to ensure no duplicate keys exist within any single file. The plugin should:  \n\n1. Scan all `.properties` files in the given directory.  \n2. For each file, check if any key is defined more than once.  \n3. Fail the build and report all duplicate keys (with file names and line numbers if possible).  \n\nYour solution should include:  \n- A Mojo class implementing the validation logic.  \n- Configuration parameters for the target directory (with a default value).  \n- Proper error handling and user-friendly logging.  \n\nProvide the full implementation of the Mojo class.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate, making it impossible to evaluate correctness, code quality, efficiency, or edge case handling. ['Provide a complete implementation of the Mojo class, including the required annotations and methods to scan and validate `.properties` files.', 'Ensure the Maven plugin is properly configured in the `pom.xml` to be executable during the build process.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 17:21:42",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 65.77083253860474,
+      "qa_history": [
+        {
+          "q": "How would you design a Spring Boot microservice to handle concurrent requests while ensuring thread safety, and what Spring components or patterns would you leverage to achieve this?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. [\"The candidate should study Spring Boot's concurrency handling mechanisms, such as `@Async`, `ThreadPoolTaskExecutor`, and `@Transactional` for thread safety.\", 'The candidate should also explore patterns like the Singleton pattern for Spring beans and the use of concurrent collections or synchronization where necessary.']"
+        },
+        {
+          "q": "How would you implement a retry mechanism for a failed external API call in a Spring Boot application, and what Spring features or design patterns would you use to ensure it's both efficient and maintainable?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Consider explaining how to use Spring Retry or Resilience4j for implementing retry logic in Spring Boot.', 'Mention the use of annotations like @Retryable or configuration properties to customize retry behavior.']"
+        },
+        {
+          "q": "**Question:**  \n\n*In a Spring Boot application, you need to implement a REST endpoint that processes a batch of orders. Each order has an `orderId` and a `status` (e.g., \"PENDING\", \"PROCESSED\", \"FAILED\"). Write a method in a Spring service class that takes a list of orders, processes them asynchronously (using Spring's `@Async`), and updates each order's status to \"PROCESSED\" if successful or \"FAILED\" if an exception occurs. The method should return a `CompletableFuture<List<Order>>` containing the updated orders. Assume the `Order` class and a `OrderRepository` (JPA) are already defined. Write the service method and any necessary annotations or configurations.*  \n\n*Note: Briefly mention any additional Spring configurations required to enable asynchronous processing.*",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate to evaluate. The question requires a specific implementation of an asynchronous service method in a Spring Boot application, along with necessary configurations. ['Provide a complete implementation of the service method using `@Async` and `CompletableFuture`. Ensure the method processes orders asynchronously and updates their statuses correctly.', 'Include the necessary Spring configuration to enable asynchronous processing, such as adding `@EnableAsync` to a configuration class and ensuring the `OrderService` is properly annotated.']"
+        },
+        {
+          "q": "**Question:**  \n\n*In a Spring Boot application, how would you design a caching strategy for a service method that fetches user details from a database, considering the following requirements: the data is read-heavy but rarely updated, and the cache should automatically evict entries after 24 hours or when the underlying data changes? Explain which Spring caching annotations and configurations you would use, and how you would handle cache invalidation upon data updates.*",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. [\"The candidate should explain the use of Spring's caching annotations like @Cacheable, @CacheEvict, and @CachePut to implement the caching strategy.\", 'The candidate should describe how to configure cache expiration (TTL) and handle cache invalidation upon data updates, possibly using @Scheduled for periodic eviction or event listeners for manual eviction.']"
+        },
+        {
+          "q": "**Question:**  \n\n*In a Spring Boot application, you need to implement a feature where users can upload a CSV file containing product data (columns: `productId`, `name`, `price`, `quantity`). Write a service method that parses the CSV file, validates each product (e.g., ensuring `price` and `quantity` are positive), and saves valid products to a database using JPA. If any product fails validation, the method should collect all validation errors (e.g., \"Invalid price for productId: 123\") and return them alongside the successfully saved products. The method should handle large files efficiently.  \n\nDefine the service method signature and implementation, including any helper classes or Spring components (e.g., `@Service`, `@Transactional`). Assume the `Product` entity and `ProductRepository` are already defined.*",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate, making it impossible to evaluate correctness, code quality, efficiency, or edge case handling. ['Provide a complete implementation of the service method, including the method signature, CSV parsing logic, validation, and database operations.', 'Ensure the method handles large files efficiently, possibly by using streaming or batch processing, and collects all validation errors before returning them alongside successfully saved products.']"
+        }
+      ]
+    }
+  ],
+  "test123": [
+    {
+      "date": "2025-12-05 17:30:40",
+      "role": "Java Developer",
+      "score": 0,
+      "max_score": 120,
+      "percentage": 0.0,
+      "time_taken": 167.31857824325562,
+      "qa_history": [
+        {
+          "q": "**\"Explain how you would design a RESTful API to handle versioning while maintaining backward compatibility, and discuss the trade-offs between different versioning strategies (e.g., URI versioning, header versioning, or media type versioning).\"**",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Research and understand the different versioning strategies for RESTful APIs, such as URI versioning (e.g., /v1/resource), header versioning (e.g., using Accept or Custom headers), and media type versioning (e.g., application/vnd.company.api.v1+json).', 'Practice explaining the trade-offs between these strategies, such as URI versioning being simple but less RESTful, header versioning being more RESTful but harder to debug, and media type versioning being flexible but complex to implement.']"
+        },
+        {
+          "q": "**\"Describe how you would implement idempotency in a REST API to ensure that duplicate requests do not cause unintended side effects, and discuss the key considerations for choosing between client-generated tokens versus server-generated tokens for idempotency keys.\"**",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The answer is skipped and does not address the technical requirements of implementing idempotency in a REST API. ['Provide a detailed explanation of how idempotency can be achieved using techniques like idempotency keys, and discuss the trade-offs between client-generated and server-generated tokens.', 'Include examples or pseudocode to illustrate the implementation, such as how to handle duplicate requests using a unique key stored server-side.']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Java method that takes a list of user objects (each with `id`, `name`, and `email` fields) and returns a `Map<String, List<String>>` where the key is the domain name from the email (e.g., \"example.com\") and the value is a list of user names associated with that domain. Handle edge case where an email may be null or malformed (skip such entries).  \n\nExample input:  \n```java\nList<User> users = List.of(\n    new User(1, \"Alice\", \"alice@example.com\"),\n    new User(2, \"Bob\", \"bob@test.org\"),\n    new User(3, \"Charlie\", \"charlie@example.com\"),\n    new User(4, \"Diana\", null)\n);\n```  \n\nExpected output:  \n```java\n{\n    \"example.com\": [\"Alice\", \"Charlie\"],\n    \"test.org\": [\"Bob\"]\n}\n```  \n\nImplement the method efficiently, ensuring thread safety if applicable.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate to evaluate. The candidate skipped the question, so no points can be awarded for correctness, code quality, efficiency, or edge case handling. ['Encourage the candidate to attempt the problem even if they are unsure, as partial solutions or attempts can still demonstrate understanding and problem-solving skills.', 'Provide guidance on how to approach the problem, such as breaking it down into smaller steps (e.g., extracting domain from email, handling null/malformed emails, and building the map).']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Java method that takes a list of user objects (each with `id`, `name`, and `email` fields) and returns a `Map<String, List<String>>` where the key is the domain name from the email (e.g., \"example.com\") and the value is a list of user names associated with that domain. Handle edge case where an email may be null or malformed (skip such entries).  \n\nExample input:  \n```java\nList<User> users = List.of(\n    new User(1, \"Alice\", \"alice@example.com\"),\n    new User(2, \"Bob\", \"bob@test.org\"),\n    new User(3, \"Charlie\", \"charlie@example.com\"),\n    new User(4, \"Diana\", null)\n);\n```  \n\nExpected output:  \n```java\n{\n    \"example.com\": [\"Alice\", \"Charlie\"],\n    \"test.org\": [\"Bob\"]\n}\n```  \n\nImplement the method efficiently, ensuring thread safety if applicable.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided by the candidate to evaluate. The candidate skipped the question, so no assessment can be made on correctness, code quality, efficiency, or edge case handling. ['Provide a complete implementation of the method to demonstrate understanding of the problem and Java concepts.', 'Ensure the solution handles edge cases such as null or malformed emails, and consider thread safety if applicable.']"
+        },
+        {
+          "q": "How would you design a REST API to support partial updates (PATCH requests) for a resource, and what are the trade-offs between using JSON Patch (RFC 6902) versus a custom partial update schema? Consider factors like validation, maintainability, and client complexity in your response.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The answer is off-topic as the candidate did not provide any response. ['Encourage the candidate to explain their approach to designing a REST API for partial updates, including the choice between JSON Patch and a custom partial update schema.', 'Ask the candidate to consider specific factors like validation, maintainability, and client complexity in their response.']"
+        },
+        {
+          "q": "**Question:**  \n\nWrite a Java method that processes a list of HTTP request logs (each containing `timestamp`, `endpoint`, and `statusCode`) and returns a `Map<String, Map<Integer, Integer>>` where the outer key is the endpoint (e.g., \"/api/users\"), the inner key is the HTTP status code (e.g., 200), and the value is the count of occurrences for that status code on the endpoint. Skip any logs with malformed or missing fields.  \n\nExample input:  \n```java\nList<RequestLog> logs = List.of(\n    new RequestLog(\"2023-01-01T10:00:00\", \"/api/users\", 200),\n    new RequestLog(\"2023-01-01T10:01:00\", \"/api/users\", 404),\n    new RequestLog(\"2023-01-01T10:02:00\", \"/api/products\", 200),\n    new RequestLog(\"2023-01-01T10:03:00\", \"/api/users\", 200),\n    new RequestLog(null, \"/api/products\", 500) // malformed, skip\n);\n```  \n\nExpected output:  \n```java\n{\n    \"/api/users\": {200: 2, 404: 1},\n    \"/api/products\": {200: 1}\n}\n```  \n\nEnsure the method handles large datasets efficiently and is thread-safe if applicable.",
+          "a": "teset",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate's answer 'teset' does not address the question or demonstrate any attempt to solve the problem. ['Provide a complete Java method that processes the list of HTTP request logs as described in the question.', 'Ensure the method handles malformed or missing fields and efficiently aggregates the counts by endpoint and status code.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 17:43:26",
+      "role": "Database Administrator",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 55.265228271484375,
+      "qa_history": [
+        {
+          "q": "**\"Explain the key differences between full, differential, and incremental backups, and describe a scenario where each type would be most advantageous in a production database environment.\"**",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['The candidate should study the differences between full, differential, and incremental backups, including their use cases in database administration.', 'The candidate should practice explaining technical concepts clearly and concisely to demonstrate understanding during interviews.']"
+        },
+        {
+          "q": "How would you design a backup strategy for a high-transaction OLTP database to ensure minimal data loss and downtime in the event of a catastrophic failure, while balancing storage costs and performance overhead?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Provide a detailed backup strategy including types of backups (full, incremental, differential), frequency, and storage considerations.', 'Discuss recovery objectives (RPO and RTO) and how the strategy aligns with them.']"
+        },
+        {
+          "q": "Write a Python function that simulates a point-in-time recovery for a database. The function should take three parameters: a list of transaction logs (each log entry is a dictionary with 'timestamp', 'operation', and 'data' keys), a target timestamp for recovery, and a base backup (a dictionary representing the initial state of the database). The function should apply all transactions up to and including the target timestamp to the base backup and return the recovered database state. Handle edge cases where the target timestamp is before the first log or after the last log.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate skipped the question, so no assessment can be made on correctness, code quality, efficiency, or edge case handling. ['Provide a complete Python function that addresses the problem statement, including handling all specified edge cases.', 'Ensure the function is well-structured, readable, and efficient, with clear comments explaining the logic.']"
+        },
+        {
+          "q": "Describe the process and considerations for implementing a cross-region disaster recovery strategy for a globally distributed database, including how you would handle data consistency, latency, and failover mechanisms.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Provide a detailed explanation of the steps involved in setting up cross-region disaster recovery, including replication methods (e.g., synchronous vs. asynchronous), consistency models, and failover protocols.', 'Discuss how to mitigate latency issues and ensure data integrity during failover, such as using read replicas or conflict resolution strategies.']"
+        },
+        {
+          "q": "Write a SQL function that automates the validation of a database backup by comparing checksums of the original tables and their corresponding backup tables. The function should take a schema name as input, generate MD5 checksums for each table in the schema and its backup counterpart (assume backup tables are named with a `_backup` suffix), and return a table listing each table name, its original checksum, backup checksum, and a status column indicating \"MATCH\" or \"MISMATCH\". Handle cases where a table or its backup does not exist.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate skipped the question, so it's impossible to assess correctness, code quality, efficiency, or edge case handling. ['Provide a complete SQL function that addresses the problem statement, including handling for missing tables or backups.', 'Ensure the function generates and compares MD5 checksums for each table and its backup, and returns a clear status for each comparison.']"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-05 17:44:52",
+      "role": "Database Administrator",
+      "score": 0,
+      "max_score": 100,
+      "percentage": 0.0,
+      "time_taken": 140.76098656654358,
+      "qa_history": [
+        {
+          "q": "**\"Explain the key differences between full, differential, and incremental backups, and describe a scenario where each type would be most advantageous in a production database environment.\"**",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['The candidate should study the differences between full, differential, and incremental backups, including their use cases in database administration.', 'The candidate should practice explaining technical concepts clearly and concisely to demonstrate understanding during interviews.']"
+        },
+        {
+          "q": "How would you design a backup strategy for a high-transaction OLTP database to ensure minimal data loss and downtime in the event of a catastrophic failure, while balancing storage costs and performance overhead?",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Provide a detailed backup strategy including types of backups (full, incremental, differential), frequency, and storage considerations.', 'Discuss recovery objectives (RPO and RTO) and how the strategy aligns with them.']"
+        },
+        {
+          "q": "Write a Python function that simulates a point-in-time recovery for a database. The function should take three parameters: a list of transaction logs (each log entry is a dictionary with 'timestamp', 'operation', and 'data' keys), a target timestamp for recovery, and a base backup (a dictionary representing the initial state of the database). The function should apply all transactions up to and including the target timestamp to the base backup and return the recovered database state. Handle edge cases where the target timestamp is before the first log or after the last log.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate skipped the question, so no assessment can be made on correctness, code quality, efficiency, or edge case handling. ['Provide a complete Python function that addresses the problem statement, including handling all specified edge cases.', 'Ensure the function is well-structured, readable, and efficient, with clear comments explaining the logic.']"
+        },
+        {
+          "q": "Describe the process and considerations for implementing a cross-region disaster recovery strategy for a globally distributed database, including how you would handle data consistency, latency, and failover mechanisms.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "The candidate did not provide an answer to the question. ['Provide a detailed explanation of the steps involved in setting up cross-region disaster recovery, including replication methods (e.g., synchronous vs. asynchronous), consistency models, and failover protocols.', 'Discuss how to mitigate latency issues and ensure data integrity during failover, such as using read replicas or conflict resolution strategies.']"
+        },
+        {
+          "q": "Write a SQL function that automates the validation of a database backup by comparing checksums of the original tables and their corresponding backup tables. The function should take a schema name as input, generate MD5 checksums for each table in the schema and its backup counterpart (assume backup tables are named with a `_backup` suffix), and return a table listing each table name, its original checksum, backup checksum, and a status column indicating \"MATCH\" or \"MISMATCH\". Handle cases where a table or its backup does not exist.",
+          "a": "[Skipped - Don't know]",
+          "score": 0,
+          "feedback": "No code was provided to evaluate. The candidate skipped the question, so it's impossible to assess correctness, code quality, efficiency, or edge case handling. ['Provide a complete SQL function that addresses the problem statement, including handling for missing tables or backups.', 'Ensure the function generates and compares MD5 checksums for each table and its backup, and returns a clear status for each comparison.']"
+        }
+      ]
+    }
+  ]
+}

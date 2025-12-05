@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "to": "rahul.sharma@email.com",
+    "subject": "\ud83c\udf89 Welcome to AI Evaluation System!",
+    "body": "\nHello rahul,\n\nWelcome to the AI-Powered Evaluation System! \ud83d\ude80\n\nYour account has been successfully created. You can now:\n\u2705 Take technical assessments\n\u2705 Track your performance\n\u2705 View detailed feedback\n\u2705 Improve your skills\n\nGet started: http://localhost:5000/login\n\nBest regards,\nAI Evaluation Team\n        ",
+    "template": "welcome",
+    "timestamp": "2025-12-06T01:24:47.354212",
+    "status": "sent"
+  }
+]
